@@ -1,0 +1,45 @@
+{
+    "status": "ok",
+    "totalResults": 3,
+    "articles": [
+        {
+            "source": {
+                "id": null,
+                "name": "Hindustan Times"
+            },
+            "author": "HT Sports Desk",
+            "title": "Framed photo with Kohli spotted at Siraj's home, netizens hail 'beautiful bond' - Hindustan Times",
+            "description": "Mohammed Siraj had invited his RCB teammates for dinner at his home in Hyderabad.  | Cricket",
+            "url": "https://www.hindustantimes.com/cricket/framed-photo-with-virat-kohli-spotted-at-mohammed-sirajs-home-during-rcb-dinner-netizens-hail-beautiful-bond-101684302754507.html",
+            "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/05/17/1600x900/siraj_kohli_1684305018202_1684305026366.jpg",
+            "publishedAt": "2023-05-17T06:32:02Z",
+            "content": "Mohammed Siraj had invited his Royal Challengers Bangalore (RCB) teammates for dinner at his home in Hyderabad. Among those who visited his home were some of the biggest stars in the team including V… [+2183 chars]"
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "NDTV News"
+            },
+            "author": null,
+            "title": "Sourav Ganguly's Security Cover Upgraded to 'Z' Category - NDTV",
+            "description": "NDTV.com: India, Business, Bollywood, Cricket, Video and Breaking News",
+            "url": "https://www.ndtv.com/news",
+            "urlToImage": "https://cdn.ndtv.com/common/images/ogndtv.png",
+            "publishedAt": "2023-05-17T04:48:12Z",
+            "content": "If you are a climate change warrior or know someone who is doing incredible work in this space, send us your entries and we'll bring the most innovative stories to the world."
+        },
+        {
+            "source": {
+                "id": null,
+                "name": "Hindustan Times"
+            },
+            "author": "HT Sports Desk",
+            "title": "Sehwag, Gambhir's reactions to Mohsin's ‘Terrific last over’ set Twitter ablaze - Hindustan Times",
+            "description": "Mohin Khan defended 10 runs to make sure LSG finish ahead of MI at IPL 2023. His terrific last over drew applause from Sehwag, Gambhir and Pathan. | Cricket",
+            "url": "https://www.hindustantimes.com/cricket/mohsins-match-winning-last-over-draws-internet-breaking-reactions-sehwag-gambhir-after-lsg-beat-mi-in-ipl-2023-101684264846839.html",
+            "urlToImage": "https://www.hindustantimes.com/ht-img/img/2023/05/16/1600x900/Collage_Maker-17-May-2023-02-52-AM-6174_1684272285223_1684272293358.jpg",
+            "publishedAt": "2023-05-17T04:28:17Z",
+            "content": "An emotional Mohin Khan dedicated his bowling heroics to his ailing father after the Lucknow Super Giants (LSG) pacer sealed a thrilling final-over win for his side against Mumbai Indians (MI) in the… [+2387 chars]"
+        }
+    ]
+}

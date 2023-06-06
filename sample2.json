@@ -1,0 +1,33 @@
+{
+    "cityId": "jaipur",
+    "cityName": "Jaipur",
+    "stateId": "rajasthan",
+    "stateName": "Rajasthan",
+    "countryId": "india",
+    "countryName": "India",
+    "applicableOn": "2023-05-22",
+    "fuel": {
+      "petrol": {
+        "retailPrice": 108.46,
+        "retailPriceChange": 0,
+        "retailUnit": "litre",
+        "currency": "INR",
+        "retailPriceChangeInterval": "day"
+      },
+      "diesel": {
+        "retailPrice": 93.7,
+        "retailPriceChange": 0,
+        "retailUnit": "litre",
+        "currency": "INR",
+        "retailPriceChangeInterval": "day"
+      },
+      "cng": {},
+      "lpg": {
+        "retailPrice": 1106.5,
+        "retailPriceChange": 50,
+        "retailUnit": "14.2kg",
+        "currency": "INR",
+        "retailPriceChangeInterval": "month"
+      }
+    }
+  }
