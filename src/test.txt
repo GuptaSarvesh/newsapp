@@ -1,5 +1,45 @@
-import React, { Component } from 'react'
+import './App.css';
 
+import React, { Component } from 'react'
+import NavBar from './components/NavBar';
+import News from './components/News';
+import Energy from './components/Energy';
+
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+  Link
+} from "react-router-dom";
+
+
+
+export default class App extends Component {
+  render() {
+    return (
+      <>
+
+        <News />
+
+        <Router>
+          <NavBar />
+          <Routes>
+            <Route exact path="/" element={<News />} />
+            <Route exact path="/fuel" element={<Energy />} />
+            
+            
+          </Routes>
+        </Router>
+
+        
+      </>
+    )
+  }
+}
+------------------------Navbar below------------------
+
+import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
 
 export class NavBar extends Component {
@@ -11,21 +51,21 @@ export class NavBar extends Component {
         {/*<nav className="navbar  bg-body-tertiary bg-dark">*/}
         <nav className="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
         <div className="container-fluid">
-          <a className="navbar-brand" href="/">News</a>
+          <Link className="navbar-brand" to="/">News</Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/">Top Headlines</a>
+                <Link className="nav-link active" aria-current="page" to="/">Top Headlines</Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/">Fuel price</a>
+                <Link className="nav-link" to="/fuel">Fuel price</Link>
               </li>
 
               <li className="nav-item">
-                <a className="nav-link" href="/">IPL Matches</a>
+                <Link className="nav-link" to="/sports">IPL Matches</Link>
               </li>
         
             
